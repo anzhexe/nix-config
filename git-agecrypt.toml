@@ -1,0 +1,2 @@
+[config]
+"hosts/laptop/secrets/syncthing.nix" = ["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPn0AqbDmJs3xBzTXajqnZVLt6iRp3TJaDXLNjlAkwZK"]

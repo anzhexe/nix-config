@@ -1,0 +1,1 @@
+hosts/laptop/secrets/syncthing.nix filter=git-agecrypt diff=git-agecrypt
