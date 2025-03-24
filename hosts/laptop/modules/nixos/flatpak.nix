@@ -28,5 +28,6 @@
     "org.kde.krita"
     "org.mozilla.firefox"
     "com.github.tchx84.Flatseal"
+    "com.slack.Slack"
   ];
 }
