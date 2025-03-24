@@ -108,6 +108,8 @@
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
     onlyoffice-bin
+    zerotierone
+    zoom-us
   ];
 
   nixpkgs.config.permittedInsecurePackages = [];

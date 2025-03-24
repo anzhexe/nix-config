@@ -10,7 +10,5 @@
     deno
     jetbrains.pycharm-community
     code-cursor
-    zerotierone
-    zoom-us
   ];
 }
