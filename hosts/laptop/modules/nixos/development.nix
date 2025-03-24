@@ -8,5 +8,9 @@
     pkg-config
     vscode
     deno
+    jetbrains.pycharm-community
+    code-cursor
+    zerotierone
+    zoom-us
   ];
 }
