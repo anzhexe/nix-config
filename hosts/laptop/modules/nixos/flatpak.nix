@@ -29,5 +29,6 @@
     "org.mozilla.firefox"
     "com.github.tchx84.Flatseal"
     "com.slack.Slack"
+    "us.zoom.Zoom"
   ];
 }
