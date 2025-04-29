@@ -30,5 +30,6 @@
     "com.github.tchx84.Flatseal"
     "com.slack.Slack"
     "us.zoom.Zoom"
+    "org.kde.kdenlive"
   ];
 }
