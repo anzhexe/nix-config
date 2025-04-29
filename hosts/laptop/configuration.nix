@@ -42,7 +42,7 @@
   boot.binfmt.emulatedSystems = [
   ];
 
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_6_12;
 
   networking.hostName = hostname;
 
@@ -96,7 +96,7 @@
 
   home-manager = {
     sharedModules = [
-        inputs.sops-nix.homeManagerModules.sops
+      inputs.sops-nix.homeManagerModules.sops
     ];
     extraSpecialArgs = {inherit inputs username;};
     backupFileExtension = "backup";
