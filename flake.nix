@@ -30,10 +30,23 @@
     nixpkgs,
     nixpkgs-unstable,
     ...
-  } @ inputs: {
+  } @ inputs: let
+    system = "x86_64-linux";
+
+    pkgs = import nixpkgs {
+      inherit system;
+      config.allowUnfree = true;
+    };
+
+    pkgs-unstable = import nixpkgs-unstable {
+      inherit system;
+      config.allowUnfree = true;
+    };
+  in {
     nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
       specialArgs = {
         inherit inputs;
+        inherit pkgs-unstable;
         username = "anzh";
         hostname = "laptop";
       };

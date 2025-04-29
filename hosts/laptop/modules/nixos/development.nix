@@ -1,4 +1,12 @@
-{pkgs, ...}: {
+{
+  pkgs,
+  pkgs-unstable,
+  ...
+}: {
+  nixpkgs.overlays = [
+    (self: super: {devenv = pkgs-unstable.devenv;})
+  ];
+
   environment.systemPackages = with pkgs; [
     devenv
     direnv
