@@ -18,5 +18,6 @@
     deno
     jetbrains.pycharm-community
     code-cursor
+    ghostty
   ];
 }

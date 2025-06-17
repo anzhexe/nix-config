@@ -58,7 +58,7 @@
         "app.zen_browser.zen.desktop"
         "code.desktop"
         "md.obsidian.Obsidian.desktop"
-        "org.gnome.Console.desktop"
+        "com.mitchellh.ghostty.desktop"
         "org.telegram.desktop.desktop"
       ];
 
