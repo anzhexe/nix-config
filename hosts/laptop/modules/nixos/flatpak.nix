@@ -31,5 +31,6 @@
     "com.slack.Slack"
     "us.zoom.Zoom"
     "org.kde.kdenlive"
+    "com.jetbrains.GoLand"
   ];
 }
