@@ -42,7 +42,7 @@
   boot.binfmt.emulatedSystems = [
   ];
 
-  boot.kernelPackages = pkgs.linuxPackages_6_12;
+  boot.kernelPackages = pkgs.linuxPackages_6_14;
 
   networking.hostName = hostname;
 

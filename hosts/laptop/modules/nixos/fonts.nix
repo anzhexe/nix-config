@@ -14,7 +14,7 @@
       name = "system-icons";
       paths = with pkgs; [
         #libsForQt5.breeze-qt5  # for plasma
-        gnome.gnome-themes-extra
+        gnome-themes-extra
       ];
       pathsToLink = ["/share/icons"];
     };
@@ -34,11 +34,8 @@
       noto-fonts
       noto-fonts-cjk-sans
       noto-fonts-emoji
-      fira-code
-      fira-code-symbols
-      nerdfonts
-      fira-code-nerdfont
       source-han-sans
+      nerd-fonts.fira-code
       source-han-mono
       source-han-serif
       source-han-code-jp

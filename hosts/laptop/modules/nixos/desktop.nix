@@ -44,14 +44,6 @@
   # Override some internationalisation properties.
   i18n.defaultLocale = lib.mkForce "en_US.UTF-8";
   i18n.supportedLocales = lib.mkForce ["en_US.UTF-8/UTF-8" "ru_UA.UTF-8/UTF-8"];
-  i18n.inputMethod = {
-    enable = true;
-    type = "ibus";
-    ibus.engines = with pkgs.ibus-engines; [
-      table
-      table-others
-    ];
-  };
 
   # Set up keyboard layouts
   services.xserver = {

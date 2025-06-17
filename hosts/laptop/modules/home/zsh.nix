@@ -9,6 +9,7 @@
     autocd = true;
 
     initExtra = ''
+      export TERM=xterm-256color
       eval "$(${pkgs.micromamba}/bin/micromamba shell hook --shell zsh)"
       eval "$(${pkgs.direnv}/bin/direnv hook zsh)"
     '';
