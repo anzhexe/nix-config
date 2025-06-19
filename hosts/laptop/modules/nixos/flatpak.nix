@@ -32,5 +32,6 @@
     "us.zoom.Zoom"
     "org.kde.kdenlive"
     "com.jetbrains.GoLand"
+    "org.raspberrypi.rpi-imager"
   ];
 }
